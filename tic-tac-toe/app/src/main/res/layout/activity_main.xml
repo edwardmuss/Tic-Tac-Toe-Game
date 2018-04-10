@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.mccutech.edwards.tic_tac_toe_game.MainActivity"
+    android:background="@drawable/mainbg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/b1"
+        android:textColor="@color/btn_color"
+        android:background="@drawable/btnbg"
+        android:text="SINGLE PLAYER" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/b2"
+        android:textColor="@color/btn_color"
+        android:background="@drawable/btnbg"
+        android:text="TWO PLAYERS" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/highScores"
+        android:textColor="@color/btn_color"
+        android:background="@drawable/btnbg"
+        android:visibility="visible"
+        android:text="SCOREBOARD" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/btn_color"
+        android:background="@drawable/btnbg"
+        android:id="@+id/b3"
+        android:text="ABOUT" />
+
+</LinearLayout>

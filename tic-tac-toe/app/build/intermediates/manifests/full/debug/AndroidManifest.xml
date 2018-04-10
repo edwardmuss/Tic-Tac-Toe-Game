@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mccutech.edwards.tic_tac_toe_game"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mccutech.edwards.tic_tac_toe_game.MainActivity"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mccutech.edwards.tic_tac_toe_game.SplashScreen"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mccutech.edwards.tic_tac_toe_game.about"
+            android:configChanges="orientation"
+            android:label="About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mccutech.edwards.tic_tac_toe_game.One_player"
+            android:configChanges="orientation"
+            android:label="Single Player"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mccutech.edwards.tic_tac_toe_game.Two_player_names_entry"
+            android:configChanges="orientation"
+            android:label="Enter Your Names"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mccutech.edwards.tic_tac_toe_game.HighScore"
+            android:configChanges="orientation"
+            android:label="High Score"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.mccutech.edwards.tic_tac_toe_game.Two_players" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

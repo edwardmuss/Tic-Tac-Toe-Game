@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mccutech.edwards.tic_tac_toe_game.Two_player_names_entry"
+    android:background="@color/white">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/p1name"
+        android:layout_marginTop="48dp"
+        android:hint="Player 1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/p2name"
+        android:hint="Player 2"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/p1name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="START GAME"
+        android:id="@+id/start2p"
+        android:background="@color/grey"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:singleLine="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp" />
+</RelativeLayout>

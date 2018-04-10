@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Staff\\Android\\Set 2\\lastly\\Games\\tic-tac-toe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+            "map": [
+                {
+                    "source": "F:\\Users\\Edwards\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\453af0220c7237400ba8d0fb4c6a7d41\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "237",
+                        "endColumns": "63",
+                        "endOffsets": "296"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Staff\\Android\\Set 2\\lastly\\Games\\tic-tac-toe-3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+            "map": [
+                {
+                    "source": "F:\\Users\\Edwards\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\453af0220c7237400ba8d0fb4c6a7d41\\res\\values-xlarge-land\\values-xlarge-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "237",
+                        "endColumns": "63",
+                        "endOffsets": "296"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}

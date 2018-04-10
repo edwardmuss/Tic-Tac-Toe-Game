@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Staff\\Android\\Set 2\\lastly\\Games\\tic-tac-toe-3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "F:\\Users\\Edwards\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\453af0220c7237400ba8d0fb4c6a7d41\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "240",
+                        "endColumns": "112",
+                        "endOffsets": "348"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Staff\\Android\\Set 2\\lastly\\Games\\tic-tac-toe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "F:\\Users\\Edwards\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.1.aar\\453af0220c7237400ba8d0fb4c6a7d41\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "240",
+                        "endColumns": "112",
+                        "endOffsets": "348"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
